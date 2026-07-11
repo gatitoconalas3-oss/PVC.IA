@@ -1,22 +1,21 @@
 {
   "name": "pvc-ia-server",
   "version": "1.0.0",
-  "description": "Backend para chatbot PVC.IA",
-  "main": "server.js",
+  "description": "PVC.IA Backend API",
   "type": "module",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["chatbot", "ia", "huggingface"],
-  "author": "gatitoconalas3-oss",
+  "keywords": ["chatbot", "ai", "huggingface"],
+  "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
+    "@huggingface/inference": "^2.6.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "uuid": "^9.0.0",
-    "axios": "^1.6.0"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
